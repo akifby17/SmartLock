@@ -1,0 +1,147 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_background"
+    android:layout_marginBottom="8dp"
+    android:stretchColumns="*" >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000" />
+    <!-- Kullanıcı Adı -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Sol Kenar Çizgisi -->
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#D3D3D3"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:text="Kullanıcı Adı"
+            android:textStyle="bold" />
+
+        <!-- Sağ Kenar Çizgisi -->
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+    </TableRow>
+
+    <!-- Yatay Çizgi -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000" />
+
+    <!-- Giriş ve Çıkış Başlıkları -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Sol Kenar Çizgisi -->
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/tvInputLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Giriş"
+            android:padding="8dp"
+            android:gravity="center"
+            android:background="#E8E8E8"
+            android:textStyle="bold" />
+
+        <!-- Dikey Çizgi -->
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/tvOutputLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Çıkış"
+            android:padding="8dp"
+            android:gravity="center"
+            android:background="#E8E8E8"
+            android:textStyle="bold" />
+
+        <!-- Sağ Kenar Çizgisi -->
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+    </TableRow>
+
+    <!-- Yatay Çizgi -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000" />
+
+    <!-- Giriş ve Çıkış Bilgileri -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Sol Kenar Çizgisi -->
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/tvInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:gravity="center"
+            android:background="#FFFFFF" />
+
+        <!-- Dikey Çizgi -->
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/tvOutput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:gravity="center"
+            android:background="#FFFFFF" />
+
+        <!-- Sağ Kenar Çizgisi -->
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+    </TableRow>
+
+    <!-- Yatay Çizgi -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000" />
+
+</TableLayout>

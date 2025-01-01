@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bord"
+    android:layout_margin="4dp"
+    android:padding="8dp"
+    android:elevation="2dp"
+    android:stretchColumns="0,2">
+
+    <!-- Kullanıcı adı satırı -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvPName"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:background="#E1E1E1"
+            android:text="Hülya Yiğit"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Dikey ayırıcı çizgi -->
+
+    </TableRow>
+
+    <!-- Yatay ayırıcı çizgi -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000" />
+
+    <!-- Personel numarası satırı -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvPersonNo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Personel No: 5"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:textColor="#000000" />
+
+        <!-- Dikey ayırıcı çizgi -->
+
+
+    </TableRow>
+
+    <!-- Yatay ayırıcı çizgi -->
+
+
+    <!-- Kayıt tarihi satırı -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvRegistrationDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kayıt Tarihi: 30.11.2024"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:textColor="#000000" />
+
+
+    </TableRow>
+</TableLayout>

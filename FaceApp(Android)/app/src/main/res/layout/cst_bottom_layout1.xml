@@ -1,0 +1,54 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Arka planda ImageView -->
+
+    <!-- Üst köşeye yerleştirilmiş buton -->
+
+    <!-- Alt merkeze yerleştirilmiş buton -->
+
+    <!-- Ortaya yerleştirilmiş buton -->
+
+    <ImageView
+        android:id="@+id/backgroundImage1"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-1dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bottom_cam" />
+
+    <Button
+        android:id="@+id/cstCamButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="87dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="1dp"
+        android:alpha="0.0"/>
+
+    <Button
+        android:id="@+id/cstLockButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="330dp"
+        android:layout_marginBottom="1dp"
+        android:alpha="0.0" />
+
+    <Button
+        android:id="@+id/cstMainButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="1dp"
+        android:alpha="0.0"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/btncolor"/> <!-- Arka plan rengi (yeşil) -->
+    <stroke
+        android:color="#FFFFFF"
+        android:width="2dp"/>
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- Buton basıldığında (pressed) görünüm -->
+
+        <!-- Normal durumda buton görünümü -->
+        <item android:drawable="@color/btncolor"/>
+    </selector>
+    <!-- Kenarları yuvarlak yapmamak için aşağıdaki 'corners' öğesini eklemiyoruz -->
+</shape>

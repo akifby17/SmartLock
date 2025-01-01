@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <Button
+        android:id="@+id/btnSDeletePerson"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="312dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        layout="@layout/custom_bottom_bar" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="417dp"
+        android:layout_height="66dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/settings_logo" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="347dp"
+        android:layout_height="524dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/settings_screen" />
+
+    <Button
+        android:id="@+id/btnAddAdmin"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="380dp"
+        android:alpha="0.0"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnInside"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="108dp"
+        android:alpha="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDeleteUser"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="584dp"
+        android:alpha="0.0"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSaddUser"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="516dp"
+        android:alpha="0.0"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDeletAdmin"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="448dp"
+        android:alpha="0.0"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSAddPerson"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="244dp"
+        android:alpha="0.0"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPersonList"
+        android:alpha="0.0"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="176dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSBack"
+        android:alpha="0.0"
+        android:layout_width="85dp"
+        android:layout_height="72dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

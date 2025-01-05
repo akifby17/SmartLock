@@ -14,10 +14,15 @@ Ayrıca Aşağıdaki API endpointlerine PostMan ile  test edebilirsiniz.
 
 
 Check Login:https://0k7lgzdne2.execute-api.eu-central-1.amazonaws.com/CheckLogin
+
 Delete Manager:https://yi6vb9dkdd.execute-api.eu-central-1.amazonaws.com/prod/delete_manager
+
 Delete User:https://yi6vb9dkdd.execute-api.eu-central-1.amazonaws.com/prod/delete_user
+
 Delete Person:https://wo6stmbasf.execute-api.eu-central-1.amazonaws.com/DeletePerson
+
 Get Login-Logout:https://fndbr4lqf1.execute-api.eu-central-1.amazonaws.com/GetLoginLogout
+
 Get Inside:https://ap94b4jqr0.execute-api.eu-central-1.amazonaws.com/GetInside
 
 Örnek JSON: 
